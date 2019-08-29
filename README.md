@@ -1,5 +1,9 @@
 # Laravel Validation Service
 
+**Important Note:** This project is a fork of the famous (and abandoned) http://andersonandra.de/l5-repository/ with a high hope to become 
+the actively maintained source. You are welcome to colloborate and submit your pull request here.
+
+
 [![Total Downloads](https://poser.pugx.org/prettus/laravel-validation/downloads.svg)](https://packagist.org/packages/prettus/laravel-validation)
 [![Latest Stable Version](https://poser.pugx.org/prettus/laravel-validation/v/stable.svg)](https://packagist.org/packages/prettus/laravel-validation)
 [![Latest Unstable Version](https://poser.pugx.org/prettus/laravel-validation/v/unstable.svg)](https://packagist.org/packages/prettus/laravel-validation)
@@ -7,10 +11,38 @@
 
 ## Installation
 
-Add "prettus/laravel-repository": "1.1.*" to composer.json
+Add the following repositories to your project's `composer.json`
+
+```terminal
+...
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/khairilanuar/laravel-validator.git"
+    }
+],
+"require": {
+...
+
+```
+
+Execute the following command to get the latest version of the package:
+
+```terminal
+composer require infinitum/laravel-validator:dev-master
+```
+
+or;
+
+Add "infinitum/laravel-validator": "dev-master" to composer.json
  
-```json
-"prettus/laravel-validation": "1.1.*"
+```terminal
+"infinitum/laravel-validator": "dev-master"
+```
+
+and after that execute;
+```terminal
+composer install
 ```
     
 ### Create a validator
