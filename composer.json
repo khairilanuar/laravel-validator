@@ -1,5 +1,5 @@
 {
-    "name": "infinitum/laravel-validation",
+    "name": "infinitum/laravel-validator",
     "description": "Laravel Validation Service",
     "keywords": ["laravel", "validation", "service"],
     "authors": [
